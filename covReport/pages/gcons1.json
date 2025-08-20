@@ -1,7 +1,0 @@
-var g_db_data = [
-{dummy:0},
-{name:'drv_cg',f:1,type:6,id:1278,tb:'130',h:'130',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],opts:[[],['merge_instance','auto(true)']],hdlPath:'/top_sv_unit/coverage',parent:'1273'},
-{name:'mon_cg',f:1,type:6,id:1288,tb:'11',h:'11',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],opts:[[],['merge_instance','auto(true)']],hdlPath:'/top_sv_unit/coverage',parent:'1273'},
-{name:'drv_cg',f:1,type:6,id:1716,tb:'130',h:'130',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],opts:[[],['merge_instance','true']],hdlPath:'work.top_sv_unit::coverage',parent:'1711'},
-{name:'mon_cg',f:1,type:6,id:1726,tb:'11',h:'11',m:'0',hp:'100.00%',cov:['100.00%','G'],g:'100.00%',gp:['100.00%','G'],opts:[[],['merge_instance','true']],hdlPath:'work.top_sv_unit::coverage',parent:'1711'}];
-processConsCovergroupsData(g_db_data);
