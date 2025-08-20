@@ -1,0 +1,14 @@
+QuestaSim vlog 10.6c Compiler 2017.07 Jul 25 2017
+Start time: 16:09:27 on Aug 20,2025
+vlog -sv "+acc" "+cover" "+fcover" -l top.log top.sv 
+** Note: (vlog-2286) define.svh(2): Using implicit +incdir+/tools/mentor/questasim_10.6c/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling package top_sv_unit
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Compiling interface add_if
+-- Compiling module ALU_DESIGN
+-- Compiling module top
+
+Top level modules:
+	top
+End time: 16:09:28 on Aug 20,2025, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
