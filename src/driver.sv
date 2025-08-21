@@ -108,7 +108,7 @@ class driver extends uvm_driver#(seq_item);
   task run_phase(uvm_phase phase);
     //repeat(1)@(vif.drv_cb);
     repeat(4)@(vif.drv_cb);
-    repeat(N*5)begin
+    forever begin
       seq_item_port.get_next_item(req);
       drive();
       seq_item_port.item_done(req);
