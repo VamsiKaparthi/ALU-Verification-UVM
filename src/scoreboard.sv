@@ -225,7 +225,7 @@ class scoreboard extends uvm_scoreboard;
   
   task run_phase(uvm_phase phase);
     int ERR;
-    repeat(N*5)begin
+    forever begin
       wait(q.size() > 0);
       $display("Arriving at scoreboard");
       scb_item = q.pop_front();
@@ -245,7 +245,8 @@ class scoreboard extends uvm_scoreboard;
         `uvm_info("SCOREBOARD", "FAIL", UVM_NONE)
         fail++;
       end
+      $display("Passes = %0d, Fails = %0d", pass, fail);
     end
-    $display("Passes = %0d, Fails = %0d", pass, fail);
+    //$display("Passes = %0d, Fails = %0d", pass, fail);
   endtask
 endclass
