@@ -106,7 +106,7 @@ class monitor extends uvm_monitor;
   
   task run_phase(uvm_phase phase);
     repeat(5)@(vif.mon_cb);
-    repeat(N*5)begin
+    forever begin
       collect();
     end
   endtask
